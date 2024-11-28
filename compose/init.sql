@@ -3,23 +3,23 @@
 CREATE SCHEMA IF NOT EXISTS staging;
 
 CREATE TABLE IF NOT EXISTS staging.supermarket_sales (
-    invoice_id VARCHAR, // sales
-    branch VARCHAR,  // branch
-    city VARCHAR, // branch
-    customer_type VARCHAR, // sales
-    gender VARCHAR, // sales
-    product_line VARCHAR, // product
-    unit_price VARCHAR, // sales
-    quantity VARCHAR, // sales
-    tax_5 VARCHAR,// sales
-    total VARCHAR,// sales
-    date VARCHAR,// sales
-    time VARCHAR,// sales
-    payment VARCHAR, // payment
-    cogs VARCHAR,// sales
-    gross_margin_percentage VARCHAR,// sales
-    gross_income VARCHAR,// sales
-    rating VARCHAR // sales
+    invoice_id VARCHAR,
+    branch VARCHAR,
+    city VARCHAR,
+    customer_type VARCHAR,
+    gender VARCHAR,
+    product_line VARCHAR,
+    unit_price VARCHAR,
+    quantity VARCHAR,
+    tax_5 VARCHAR,
+    total VARCHAR,
+    date VARCHAR,
+    time VARCHAR,
+    payment VARCHAR,
+    cogs VARCHAR,
+    gross_margin_percentage VARCHAR,
+    gross_income VARCHAR,
+    rating VARCHAR
 );
 
 ### NDS
