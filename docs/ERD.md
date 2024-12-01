@@ -1,49 +1,3 @@
-# Data Engineer Diploma Project
-
-**Objective:** Create ETL process documentation based on the provided dataset
-
-## Project Phases
-1. Data processing and analysis
-2. Design normalized data schema (NDS) 
-3. Define fact and dimension tables (DDS)
-4. Develop ETL processes for:
-   - Loading data into NDS
-   - Creating data marts
-5. Define metrics and create dashboards
-6. Document results and conclusions
-
-## Requirements
-
-### ETL Development
-Create and document data loading processes for:
-- NDS (normalized storage)
-- DDS (star schema)
-- Data Quality layer (optional enhancement)
-
-### Dashboard Creation
-Build Tableau dashboards based on DDS
-
-## Technical Implementation Options
-
-### ETL Processing
-- Python (pandas) + SQL
-
-### Data Sources
-- Provided CSV dataset
-- External API integration (optional enhancement)
-
-### Additional Components
-- Airflow orchestration (optional)
-- Metadata layer with loading statistics dashboards (optional)
-
-## Deliverables
-1. Interactive dashboards
-2. Data warehouse schema documentation
-3. ETL process documentation
-
-
-
-```mermaid
 erDiagram
     dim_branch ||--o{ fact_sales : "branch_id"
     dim_product_category ||--o{ fact_sales : "product_category_id"
@@ -99,5 +53,3 @@ erDiagram
         decimal gross_income
         decimal rating
     }
-
-```
